@@ -1,4 +1,5 @@
 - RTL requests a Preloader xap firsts (probably with DRM)
 -- xap_path='/(channel='+channel+',zone='+zone+',progid='+progid+')/system/video/xap'+material.componentUri+'/embed_with_commercials_and_new_drm_v4.xap' (from combined.js)
+-- it appears this xap has a 'settings.txt' embedded in it (not yet verified)
 - Preloader xap loads an overlay xap
 
