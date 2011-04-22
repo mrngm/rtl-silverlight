@@ -1,0 +1,2 @@
+- RTL requests a Preloader xap firsts (probably with DRM)
+- Preloader xap loads an overlay xap
