@@ -2,5 +2,14 @@
 -- xap_path='/(channel='+channel+',zone='+zone+',progid='+progid+')/system/video/xap'+material.componentUri+'/embed_with_commercials_and_new_drm_v4.xap' (from combined.js)
 -- this xap has a 'settings.txt' embedded in it, actually it's a zip file, extract as zip, find settings.txt
 -- find the 'loader_player_url' for WebRadio.xap
-- Preloader xap loads an overlay xap
+- Preloader xap loads overlay and webradio xap
+
+* stream urls in settings.txt
+- x-asxurl
+- number_of_streams=2
+- asx_baseurl
+- asx_bandwidth1
+- asx_bandwidth2
+- asx_bandwidth3
+* (%replace%)
 
