@@ -1,5 +1,6 @@
 - RTL requests a Preloader xap firsts (probably with DRM)
 -- xap_path='/(channel='+channel+',zone='+zone+',progid='+progid+')/system/video/xap'+material.componentUri+'/embed_with_commercials_and_new_drm_v4.xap' (from combined.js)
--- it appears this xap has a 'settings.txt' embedded in it (not yet verified)
+-- this xap has a 'settings.txt' embedded in it, actually it's a zip file, extract as zip, find settings.txt
+-- find the 'loader_player_url' for WebRadio.xap
 - Preloader xap loads an overlay xap
 
