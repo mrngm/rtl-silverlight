@@ -6,10 +6,10 @@
 
 * stream urls in settings.txt
 - x-asxurl
-- number_of_streams=2
+- number_of_streams
 - asx_baseurl
 - asx_bandwidth1
 - asx_bandwidth2
 - asx_bandwidth3
 * (%replace%)
-
+* %bandwidth
