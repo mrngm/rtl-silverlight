@@ -15,6 +15,11 @@
 - ClsInitSettings / p_getBitrateUrl
   * dart_full_string.str_replace('|',',') OR
   * '[config=dart_config[,channel=dart_channel[,progid=dart_progid[,zone=dart_zone[,ord=dart_ord]]]]]'
+    * dart_config: xap.settings (assumed)
+    * dart_channel: (from settings.txt)
+    * dart_progid: (from settings.txt)
+    * dart_zone: (from settings.txt)
+    * dart_ord: unix_timestamp(now())
 - ClsDetectBitRate
   - p_parseAndDetectBitRate
   - CheckUrl
