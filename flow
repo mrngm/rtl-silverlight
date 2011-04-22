@@ -12,4 +12,7 @@
 - asx_bandwidth2
 - asx_bandwidth3
 * (%replace%)
+- ClsInitSettings / p_getBitrateUrl
+  * dart_full_string.str_replace('|',',') OR
+  * '[config=dart_config[,channel=dart_channel[,progid=dart_progid[,zone=dart_zone[,ord=dart_ord]]]]]'
 * %bandwidth
